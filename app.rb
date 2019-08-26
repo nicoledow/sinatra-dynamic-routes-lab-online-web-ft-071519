@@ -34,7 +34,7 @@ class App < Sinatra::Base
     
     case @operation
     when "+"
-      ""
+      "#{(@number1 + @number2).to_s}"
   end
   end
   
