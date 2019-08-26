@@ -17,6 +17,9 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     
     repeated_phrase = ""
+    @num.times do 
+      repeated_phrase += "@phrase \n"
+    end
   end
 
 end
