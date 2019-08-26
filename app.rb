@@ -20,6 +20,7 @@ class App < Sinatra::Base
     @num.times do 
       repeated_phrase += "@phrase \n"
     end
+    repeated_phrase
   end
 
 end
